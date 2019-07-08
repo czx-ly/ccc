@@ -35,10 +35,10 @@ router
   .get("/getPostList", postsController.getPostList)
   .get("/delPostById", postsController.delPostById)
   .post("/addPost", postsController.addPost)
-  .get("/getPostById", postsController.getPostById)
+  // .get("/getPostById", postsController.getPostById)
 
   //文章编辑
-  .post("/editPost", postsController.editPost)
+  // .post("/editPost", postsController.editPost)
 
   //获取所有分类数据
   .get("/getAllCateList", cateController.getAllCateList)
